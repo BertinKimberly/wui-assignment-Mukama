@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: #211f1f;
+}
 
 .navbar{
      position: fixed;
@@ -44,11 +47,19 @@ span{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .header-content{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.header-content h2{
+    color: white;
+    font-weight: 600;
+}
+.header-content span{
+     color: blue;
 }
 .publications{
     background: #211f1f;
