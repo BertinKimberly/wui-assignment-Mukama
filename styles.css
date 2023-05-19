@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top:80px ;
+}
+.navbar{
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     height: 80px;
+     background: #000;
+     color: #fff;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 20px;
+}
+.logo{
+    font-size: 20px;
+}
+ a{
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+span{
+    margin: 0 20px;
+}
+
+.home-header{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url();
+}
